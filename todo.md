@@ -1,0 +1,195 @@
+[prestige]: ## "Ard arda aynı görevi tamamlama sıklığı"
+
+# Yapılacaklar Listesi
+
+## Modüller
+
+- [ ] Eğlence
+  - [ ] Tepki komutları
+  - [ ] Oyunlar
+    - [ ] Vampir Köylü
+    - [ ] SpyFall
+- [ ] Moderasyon
+  - [ ] Basit Moderasyon
+  - [ ] Moderasyon Loglama
+    - [ ] Kanala'a Loglama
+    - [ ] Web arayüzüne loglama
+  - [ ] Toplu Susturma / Sağırlaştırma (Ses Kanalında) (Hızlı)
+  - [ ] Bir ses kanalından diğer ses kanallarına üye dağıtma (Rastgele/Sıralı/Seçili) (Hızlı)
+- [ ] İstatistik
+  - [ ] Gelişmiş İstatistik (GÜN/HAFTA/AY/YIL/SONSUZ)
+- [ ] Müzik
+  - [ ] Youtube
+    - [ ] Playlist
+  - [ ] Spotify
+    - [ ] Playlist
+  - [ ] Soundcloud
+    - [ ] Playlist
+- [ ] Kayıt
+  - [ ] Karşılama mesajı
+  - [ ] Kayıt komutları
+  - [ ] Kayıt Loglama
+    - [ ] Kanala'a Loglama
+    - [ ] Web arayüzüne loglama
+- [ ] Resimli Karşılama Mesajı
+  - [x] Gif desteği
+- [ ] Reaktif Sunucu Afişi
+  - [x] Gif desteği
+  - [ ] İstatistik modülü ile entegrasyon
+  - [ ] Ekonomi sistemi ile entegrasyon
+- [ ] Ekonomi
+  - [ ] Para birimi
+  - [ ] Market
+    - [ ] Rol
+  - [ ] İş
+  - [ ] Kumar
+    - [ ] Slot
+    - [ ] Zar
+    - [ ] Rulet
+    - [ ] Blackjack
+- [ ] Ekstra
+  - [ ] Rol'e emoji bağlama
+- [ ] Görev Sistemi (Haftalık/Aylık)
+  - [ ] Görev dağıtımı (Otomatik/İsteğe Bağlı)
+  - [ ] Görev Ödülleri ([Prestij][prestige]e Bağlı/Direkt)
+    - [ ] Rol (Kalıcı/Süreli)
+    - [ ] Ekonomi sistemi ile entegrasyon
+- [ ] Özel Oda
+  - [ ] Anlık oluşturma
+    - [ ] Kalıcı İzinler (Opsiyonel)
+  - [ ] Kalıcı odalar
+    - [ ] Oda açma
+      - [ ] Rol başına x adet
+      - [ ] Ekonomi ile entegrasyon
+      - [ ] İstatistik ile entegrasyon
+    - [ ] Oda limiti
+      - [ ] İsteğe bağlı
+      - [ ] İstatistik ile entegrasyon
+- [ ] Guardiyan
+  - [ ] Rol koruma (Silindiğinde geri verecek)
+  - [ ] Kanal koruma
+    - [ ] Rol koruma ile entegrasyon
+
+
+## Özellikler
+
+- [ ] Embed
+  - [ ] Telefon/Masaüstü uyarlılık
+- [x] İngilizce dil desteği
+- [ ] Slash Komut/Mesaj Komut uyumluluğu
+  - [ ] Argüman organizasyonu
+  - [ ] Kukla etkileşim tetiklenmesi
+- [ ] Geçici Rol Sistemi
+- [ ] Developer Api (Uzun vadede)
+  - [ ] HTTP
+    - [ ] Ekonomi
+    - [ ] İstatistik
+    - [ ] Görev
+  - [ ] Websocket
+    - [ ] Ekonomi Eventleri
+    - [ ] İstatistik Eventleri
+    - [ ] Görev Eventleri
+
+<details>
+  <summary>Gelişmiş İstatistik</summary>
+
+- [ ] voice_duration_channel
+- [ ] voice_duration_channel
+- [ ] voice_duration_category
+- [ ] voice_duration_total
+- [ ] voice_duration_undeaf_channel
+- [ ] voice_duration_undeaf_category
+- [ ] voice_duration_undeaf_total
+- [ ] voice_duration_stream_undeaf_channel
+- [ ] voice_duration_stream_undeaf_category
+- [ ] voice_duration_stream_undeaf_total
+- [ ] voice_duration_camera_undeaf_channel
+- [ ] voice_duration_camera_undeaf_category
+- [ ] voice_duration_camera_undeaf_total
+- [ ] voice_duration_stream_channel
+- [ ] voice_duration_stream_category
+- [ ] voice_duration_stream_total
+- [ ] voice_duration_camera_channel
+- [ ] voice_duration_camera_category
+- [ ] voice_duration_camera_total
+- [ ] voice_duration_muted_channel
+- [ ] voice_duration_muted_category
+- [ ] voice_duration_muted_total
+- [ ] message_create_count_channel
+- [ ] message_create_count_category
+- [ ] message_create_count_total
+- [ ] message_delete_count_channel
+- [ ] message_delete_count_category
+- [ ] message_delete_count_total
+- [ ] message_edit_count_channel
+- [ ] message_edit_count_category
+- [ ] message_edit_count_total
+- [ ] voice_channel_join_count
+- [ ] voice_channel_join_total_count
+- [ ] category_voice_channel_join_count
+- [ ] category_voice_channel_join_total_count
+- [ ] voice_channel_leave_count
+- [ ] voice_channel_leave_total_count
+- [ ] category_voice_channel_leave_count
+- [ ] category_voice_channel_leave_total_count
+- [ ] voice_channel_switch_count
+- [ ] voice_channel_switch_total_count
+- [ ] category_voice_channel_switch_count
+- [ ] category_voice_channel_switch_total_count
+- [ ] member_web_online_count
+- [ ] member_online_count
+- [ ] member_web_idle_count
+- [ ] member_idle_count
+- [ ] member_web_dnd_count
+- [ ] member_dnd_count
+- [ ] member_web_offline_count
+- [ ] member_offline_count
+- [ ] member_desktop_online_count
+- [ ] member_desktop_idle_count
+- [ ] member_desktop_dnd_count
+- [ ] member_desktop_offline_count
+- [ ] member_mobile_online_count
+- [ ] member_mobile_idle_count
+- [ ] member_mobile_dnd_count
+- [ ] member_mobile_offline_count
+- [ ] member_self_mute_count
+- [ ] member_self_deaf_count
+- [ ] member_server_mute_count
+- [ ] member_server_deaf_count
+- [ ] member_stream_count
+- [ ] member_camera_count
+- [ ] member_join_count
+- [ ] target_register_total_count
+- [ ] my_register_total_count
+- [ ] target_register_male_count
+- [ ] my_register_male_count
+- [ ] target_register_female_count
+- [ ] my_register_female_count
+- [ ] target_ban_add_count
+- [ ] my_ban_add_count
+- [ ] target_ban_remove_count
+- [ ] my_ban_remove_count
+- [ ] target_kick_count
+- [ ] my_kick_count
+- [ ] target_jail_count
+- [ ] my_jail_count
+- [ ] target_mute_voice_count
+- [ ] my_mute_voice_count
+- [ ] target_mute_chat_count
+- [ ] target_mute_count
+- [ ] my_mute_chat_count
+- [ ] my_mute_count
+- [ ] target_contextmenu_mute
+- [ ] my_contextmenu_mute
+- [ ] target_contextmenu_deaf
+- [ ] my_contextmenu_deaf
+- [ ] target_contextmenu_unmute
+- [ ] my_contextmenu_unmute
+- [ ] target_contextmenu_undeaf
+- [ ] my_contextmenu_undeaf
+- [ ] target_contextmenu_disconnect
+- [ ] my_contextmenu_disconnect
+- [ ] afk_count
+- [ ] boost_count
+- [ ] member_roles_updated_count
+</details>
