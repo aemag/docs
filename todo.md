@@ -69,8 +69,10 @@
   - [ ] Rol koruma (Silindiğinde geri verecek)
   - [ ] Kanal koruma
     - [ ] Rol koruma ile entegrasyon
-
-
+- [ ] Ses Aktivitesi (Bot başına belirli ses kanalında)
+  - [ ] Afk bekleme
+  - [ ] Durmadan bir ses çalma
+  - [ ] Kanala biri girince ses çalma
 ## Özellikler
 
 - [ ] Embed
