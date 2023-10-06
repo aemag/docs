@@ -16,6 +16,7 @@
     - [ ] Web arayüzüne loglama
   - [ ] Toplu Susturma / Sağırlaştırma (Ses Kanalında) (Hızlı)
   - [ ] Bir ses kanalından diğer ses kanallarına üye dağıtma (Rastgele/Sıralı/Seçili) (Hızlı)
+  - [ ] Yapışkan Roller
 - [ ] İstatistik
   - [ ] Gelişmiş İstatistik (GÜN/HAFTA/AY/YIL/SONSUZ)
 - [ ] Müzik
@@ -29,6 +30,7 @@
   - [ ] Karşılama mesajı
   - [ ] Kayıt komutları
   - [ ] Kayıt Loglama
+  - [ ] Oto Kayıt Sistemi
     - [ ] Kanala'a Loglama
     - [ ] Web arayüzüne loglama
 - [ ] Resimli Karşılama Mesajı
